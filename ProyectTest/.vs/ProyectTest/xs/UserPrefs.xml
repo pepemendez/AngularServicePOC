@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{9EEE6305-1674-4644-92FD-29A5F2A82A9F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectTest/ClientApp/src/app/angular-mission-control/astronaut.component.ts">
+    <Files>
+      <File FileName="ProyectTest/ClientApp/src/app/angular-mission-control/angular-mission-control.component.ts" Line="27" Column="10" />
+      <File FileName="ProyectTest/ClientApp/src/app/angular-mission-control/angular-mission-control.component.html" Line="20" Column="1" />
+      <File FileName="ProyectTest/ClientApp/src/app/angular-mission-control/astronaut.component.ts" Line="13" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProyectTest" expanded="True">
+            <Node name="ProyectTest" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="app" expanded="True">
+                    <Node name="angular-mission-control" expanded="True">
+                      <Node name="astronaut.component.ts" selected="True" />
+                    </Node>
+                    <Node name="counter" expanded="True" />
+                    <Node name="fetch-data" expanded="True" />
+                    <Node name="home" expanded="True" />
+                    <Node name="nav-menu" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Pages" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ProyectTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

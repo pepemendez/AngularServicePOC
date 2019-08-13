@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+
+        <h3>
+            Código extraido de <a href="https://angular.io/guide/component-interaction">
+                https://angular.io/guide/component-interaction
+            </a>
+        </h3>
+
+        <p>
+            Se ha modificado el código con base en la siguiente lógica:
+            <br />
+            <br />
+            1. Una misión puede ser confirmada sólo por un astronauta
+            <br />
+            2. Un astronauta sólo puede elegir una misión
+            <br />
+            3. Deben existir astronautas para anunciar misiones
+            <br />
+            4. Deben existir misiones para que un astronauta confirme
+        </p>
+        <hr style="height: 1px; background: #333">
+
+        <h2>Mission Control</h2>
+        <button (click)="announce()"
+                [disabled]="astronautsEmpty">Announce mission</button>
+
+
+
+        <app-astronaut *ngFor="let astronaut of astronauts"
+                       [astronaut]="astronaut">
+        </app-astronaut>
+        <h3>History</h3>
+        <ul>
+            <li *ngFor="let event of history">{{event}}</li>
+        </ul>
+    </body>
+</html>
+
